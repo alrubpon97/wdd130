@@ -9,7 +9,7 @@ body {
     line-height: 1.6;
 }
 
-header {
+header, footer {
     background-color: black;
     color: white;
     padding: 10px;
@@ -56,6 +56,5 @@ ul {
 
 footer {
     font-size: .9rem;
-
 }
 
