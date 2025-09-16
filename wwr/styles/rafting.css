@@ -171,8 +171,7 @@ footer .socialmedia img {
   object-fit: contain;
 }
 
-.history, 
-.adventures {
+.history {
   text-align: center;
 }
 
@@ -221,9 +220,11 @@ header, footer {
   color: var(--color-dark);
 }
 
-.adventures h2 {
-  text-align: center;
-  margin-bottom: 1rem;
+h2 {
+  display: block;
+  border-bottom: 4px solid var(--color-primary);
+  padding-bottom: .2rem;
+  color: var(--color-dark);
 }
 
 
