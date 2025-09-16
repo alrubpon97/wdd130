@@ -55,8 +55,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: rgba(255, 107, 0, 0.85);
+    background-color: rgba(43, 45, 66, 0.85);
     color: #fff;
 }
 
@@ -103,7 +102,7 @@ header nav a {
 
 header nav a:hover {
   background-color: var(--color-primary);
-  color: #fff;
+  color: white;  
 }
 
 header nav a:hover {
@@ -157,7 +156,7 @@ footer .socialmedia a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #5a77a6;
+  background: #2e4b78;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -203,6 +202,23 @@ header, footer, .history-grid img {
   color: var(--color-dark);
   background: #e6d6f5;
 }
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--color-dark);
+}
+
+h2 {
+  display: inline-block;
+  border-bottom: 4px solid var(--color-primary);
+  padding-bottom: .2rem;
+}
+
+header, footer {
+  color: var(--color-dark);
+}
+
+
 
 
 
