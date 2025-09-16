@@ -57,6 +57,9 @@ h1 {
     text-align: center;
     background-color: rgba(43, 45, 66, 0.85);
     color: #fff;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    background: none;
 }
 
 article {
@@ -216,6 +219,11 @@ h2 {
 
 header, footer {
   color: var(--color-dark);
+}
+
+.adventures h2 {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 
