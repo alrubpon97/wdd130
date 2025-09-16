@@ -129,3 +129,75 @@ header > img {
   border-radius: 8px;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer p { 
+    margin: 0; 
+}
+
+footer .socialmedia {
+    margin-left: auto;
+    display: flex;
+    gap: 0.5rem;
+}
+
+footer .socialmedia a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #5a77a6;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+footer .socialmedia img {
+  width: 24px;
+  height: 24px;
+  display: block;
+  object-fit: contain;
+}
+
+.history, 
+.adventures {
+  text-align: center;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* text | image | text */
+  align-items: center;
+  text-align: left;
+}
+
+.history-grid img {
+  width: 220px;    /* adjust size */
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  background: #e6d6f5; /* optional: light frame like wireframe */
+  padding: .5rem;
+}
+
+.history-grid img {
+    justify-self: center;
+}
+
+.adventure {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
