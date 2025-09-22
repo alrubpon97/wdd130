@@ -1,0 +1,60 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: 'Times New Roman', Times, serif; }
+
+form {
+  width: 650px;             /* was: 100 (no units) */
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #bbb;   /* was: 1 px (invalid) */
+  border-radius: .5rem;
+  background-color: #f3f3f3;
+  display: grid;
+  gap: 1rem;
+}
+
+fieldset {
+  display: grid;
+  gap: .75rem;
+  margin: 0;                /* fieldset already has inner padding */
+  border: 1px solid #c9c9c9;
+  padding: 1rem;
+  background: #eee;
+}
+
+legend {
+  padding: 0 .5rem;
+  color: #23346e;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.form-item { display: grid; align-items: center; gap: .75rem; }
+
+/* You had .column2 only; add .column1 */
+.column1 { grid-template-columns: 3fr 1fr; margin: .25rem 0; }
+.column2 { grid-template-columns: 1fr 2fr; margin: .25rem 0; }
+
+label { text-align: right; padding-right: 1rem; }
+
+input, select, textarea { padding: .5rem; font-size: 1.1rem; }
+
+input[type="checkbox"] {   /* was: checkbox {} */
+  width: 22px; height: 22px; vertical-align: bottom;
+}
+
+button {
+  margin: 1rem auto 0;
+  background-color: navy; color: #fff;
+  border: none; border-radius: .5rem;
+  padding: .75rem 1.25rem; font-size: 1.2rem;
+  cursor: pointer;
+}
+button:hover { background-color: darkgreen; }
+
+footer {
+  margin: 1rem auto 0; width: 650px; text-align: center;
+  font-size: .8em; color: #777; border-top: 1px solid #ccc;
+}
+
+
