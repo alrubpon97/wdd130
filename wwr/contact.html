@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Get in touch with Rafting Travel, address, phone, email, map, and a contact form for questions about trips, reservations, and our website.">
+    <meta name="author" content="Jose Alejandro Rubio Ponce">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg"
+            alt="Logo of a yellow rafting boat with four paddlers in helmets, surrounded by the words Rafting Trail in a circular design.">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact-page">
+  <h1 class="page-title">Rafting Travel</h1>
+  
+  <section class="contact-details">
+    <div>
+        <address>
+            <p>1 Tesla Rd</p>
+            <p>Austin, TX 78725, USA</p>
+            <p>+1 999-999-999</p>
+            <p>contact@raftingtravel.com</p>
+        </address> 
+    </div>
+  </section>
+
+  <section class="contact-form">
+    <div class="map-wrap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1449.4146404759072!2d-97.61325790120743!3d30.228280568080343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b7511cbef285%3A0xa711d3a8e3cf36c!2s1%20Tesla%20Rd%2C%20Austin%2C%20TX%2078725%2C%20USA!5e0!3m2!1sen!2spt!4v1758989074172!5m2!1sen!2spt"
+        width="600"
+        height="450"
+        title="Map showing Rafting Travel location"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <form>
+      <div class="form-row">
+        <label for="cf-name">Name</label>
+        <input id="cf-name" name="name" type="text" class="form-control" required>
+      </div>
+
+      <div class="form-row">
+        <label for="cf-email">Email</label>
+        <input id="cf-email" name="email" type="email" class="form-control" required>
+      </div>
+
+      <fieldset class="form-row">
+        <legend>Message Purpose</legend>
+
+        <label class="radio">
+          <input type="radio" name="purpose" value="general" required>
+          General Inquiry
+        </label>
+
+        <label class="radio">
+          <input type="radio" name="purpose" value="reservation">
+          Reservation Question
+        </label>
+
+        <label class="radio">
+          <input type="radio" name="purpose" value="website">
+          Website Suggestion
+        </label>
+      </fieldset>
+
+      <div class="form-row">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" class="form-control" rows="6" required></textarea>
+      </div>
+
+      <label class="checkbox">
+        <input type="checkbox" name="newsletter">
+        Please subscribe me to the monthly newsletter
+      </label>
+
+      <button type="submit" class="primary-btn">Get in Touch!</button>
+    </form>
+  </section>
+</main>
+    <footer>
+        <p>&copy; 2025 &#128166; Rafting Travel &#128166; Jose Rubio</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png"
+                    alt="Facebook logo"></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram-logo.png"
+                    alt="Instagram logo"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
